@@ -1,5 +1,7 @@
+#!name=淘宝京东比价模块
+#!desc=该模块适用于显示淘宝京东商品历史价格
+#!system=ios
 
-#!name= jd taobao historical module
 [Script]
 #京东比价
 http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
