@@ -1,5 +1,6 @@
-＃！name =国际版抖音
-＃！desc =该模块适用于解锁国际版抖音
+#!name=国际抖音模块
+#!desc=国际版抖音解锁
+#!system=ios
 [URL Rewrite]
 
 (?<=_region=)CN(?=&) JP 307
